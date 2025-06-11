@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 } 
-.container {
-    height: 100px;
-    width: 980px;
+.container-header {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 20px;
     background-color: yellow;
     display:flex;
 } 
@@ -14,5 +15,26 @@
     height: 100px;
     background-color: lightblue;
     margin-inline-start: auto;
+    display: flex;
+    justify-content: center;
   
 }
+
+.banner {
+    background-color: blue;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+   
+}
+.card {
+    background-color: blueviolet;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+  
+    }
