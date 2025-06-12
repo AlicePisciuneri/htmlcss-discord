@@ -4,22 +4,58 @@
     box-sizing: border-box;
 } 
 .container-header {
-    max-width: 1200px;
-    margin: 0;
+    max-width: 980px;
+    margin: 0 auto;
     padding: 0 20px;
-    background-color: yellow;
+    background-color:rgb(8, 46, 211);
     display:flex;
+    justify-content: center;  
+    align-items: center;     
+    gap: 150px;     
 } 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-inline-end: auto;
+}
+
+.logo img {
+  width: 70px;  
+  height: auto;
+  display: block; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box {
     width: 100px;
     height: 100px;
     background-color: lightblue;
-    margin-inline-start: auto;
     display: flex;
-    justify-content: center;
-  
+    justify-content: flex-start;
 }
-
 .banner {
     background-color: blue;
     width: 900px;
@@ -27,6 +63,8 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+    flex-direction: column;
+    gap: 30px;
    
 }
 .card {
@@ -36,5 +74,5 @@
     display: flex;
     justify-content: center;
     margin-right: 50px;
-  
-    }
+  }
+
