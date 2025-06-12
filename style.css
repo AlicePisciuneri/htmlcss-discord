@@ -3,27 +3,118 @@
     padding: 0;
     box-sizing: border-box;
 } 
+/*header*/
 .container-header {
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 0 20px;
-    background-color:rgb(8, 46, 211);
-    display:flex;
-    justify-content: center;  
-    align-items: center;     
-    gap: 150px;     
-} 
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: rgba(49, 97, 224, 255);
+  display: flex;
+  gap: 150px;
+}
+
 .logo {
   display: flex;
-  align-items: center;
-  justify-content: flex-start; 
-  margin-inline-end: auto;
+  margin-right: 0 auto;
+  gap: 10%;
 }
 
 .logo img {
-  width: 70px;  
+  width: 70px;
   height: auto;
-  display: block; 
+  display: block;
+}
+/*main*/
+
+.main-menù {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.main-menù span {
+  font-weight: 100;
+  color: white;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 5px 5px;
+  background-color: white;
+  color: black;
+}
+
+img {
+  width: 900px;
+  height: 400px;
+}
+
+.talk {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+}
+
+.paragrafo {
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  font-size: 14px;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero {
+  position: relative;
+  display: inline-block;
+}
+
+.jumbo-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contenuto {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  color: white;
+  max-width: 600px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.btnmac {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.btndiscord {
+  background-color: black;
+  color: white;
+  border: 2px solid;
 }
 
 
@@ -37,42 +128,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
-    display: flex;
-    justify-content: flex-start;
-}
-.banner {
-    background-color: blue;
-    width: 900px;
-    height: 400px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-   
-}
-.card {
-    background-color: blueviolet;
-    height: 200px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    margin-right: 50px;
-  }
 
